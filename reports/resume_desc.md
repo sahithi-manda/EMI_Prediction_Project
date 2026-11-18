@@ -11,7 +11,7 @@ This document contains professional bullet points that can be added to a softwar
 * Designed a unified preprocessing pipeline using scikit-learn `ColumnTransformer` with `StandardScaler` and `OneHotEncoder` to avoid data leakage and ensure seamless inference serialization.
 * Evaluated multiple ML architectures, selecting **Logistic Regression** for classification (F1-Score: 73.6%, Accuracy: ~90%) and **Random Forest Regressor** for regression (R²: 81.9%, MAE: ~3,570 INR).
 * Built a premium interactive **Streamlit dashboard** equipped with stateful profile forms, custom glassmorphism HTML elements, dynamic loan capacity simulators, and correlation/feature importance analytics.
-* Optimized model serialization using `joblib`, reducing prediction latencies to sub-10ms and enabling local deployment.
+* Serialized the trained pipelines with `joblib` and served predictions through the Streamlit app.
 
 ---
 

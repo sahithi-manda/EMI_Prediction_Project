@@ -543,7 +543,7 @@ elif page == "📋 Project Deliverables":
                     • Built a dual-engine machine learning app to predict borrower loan eligibility (Logistic Regression, 90% Accuracy) and estimate maximum affordable monthly EMI (Random Forest Regressor, 82% R² score).<br>
                     • Implemented production-grade ML pipelines using ColumnTransformer, Standard Scaler, and One-Hot Encoding, ensuring unified training and inference serialization.<br>
                     • Developed a responsive, premium Streamlit dashboard visualizing customer credit trends, distribution metrics, correlation matrices, and model feature importances.<br>
-                    • Packaged models into compressed Joblib files, reducing inference latencies by 40% and deploying a local microservice.
+                    • Serialized the trained pipelines with Joblib and served them through an interactive Streamlit app.
                 </p>
             </div>
             """,
