@@ -109,8 +109,8 @@ The Random Forest captures the non-linear effect of disposable income on afforda
 ## Run it
 
 ```bash
-git clone https://github.com/sahithi-manda/EMIPredict-AI.git
-cd EMIPredict-AI
+git clone https://github.com/sahithi-manda/EMI_Prediction_Project.git
+cd EMI_Prediction_Project
 python -m venv venv && source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
